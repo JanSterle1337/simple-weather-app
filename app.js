@@ -1,5 +1,5 @@
 let weather = {
-    "apiKey": "0f37a6eb6caccc6570dea16c0fbd455d",
+    "apiKey": "APIHKEYGOESHERE",
     
     fetchWeather: function() {
 
