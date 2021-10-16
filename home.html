@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><H1>Weather app</H1></title>
+    <link rel="stylesheet" href="styling/style.css">
+  </head>
+  <body>
+    <script src="app.js"></script>
+
+    <div class="weather-wrapper">
+     
+      <div class="city-wrapper">
+        <div class="header-wrapper">
+          <p class="header-text">Search city weather</p>
+        </div>
+        <div class="retrieve-data">
+          <div class="input-wrapper">
+            <input type = "text" name="searchInput" id="getCity">
+          </div>
+          <div class="input-wrapper">
+            <svg class="searchButton" onclick = "weather.fetchWeather()" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="rgba(66, 66, 66, 0.4)" stroke="#FFF" stroke-width="1" d="M15,15 L22,22 L15,15 Z M9.5,17 C13.6421356,17 17,13.6421356 17,9.5 C17,5.35786438 13.6421356,2 9.5,2 C5.35786438,2 2,5.35786438 2,9.5 C2,13.6421356 5.35786438,17 9.5,17 Z"></path></svg>
+          </div>
+        </div>    
+          <div class="selected-city-wrapper">
+            <p class="city">No city selected</p>
+          </div>
+          <div class="weather-description-wrapper">
+            <p class="weather-description">No description for current city</p>
+            <img src="" alt="" class="icon" />
+          </div>
+          <div class="city-temperature-wrapper">
+            <p class="city-temperature">No temperature for current city</p>
+          </div>
+          <div class="city-humidity-wrapper">
+            <p class="city-humidity">No humidity for current city</p>
+          </div>
+      </div>
+    </div>
+
+	
+  </body>
+</html>
